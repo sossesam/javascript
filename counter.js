@@ -6,7 +6,7 @@ colorsArray = ["red","blue","pink","green","purple","yellow"];
 
 
     
-    document.getElementById("date").innerHTML = d
+    document.getElementById("date").innerHTML = d.toLocaleDateString()
 
     
     if(5 <= t && 12 > t){
