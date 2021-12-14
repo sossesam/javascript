@@ -6,10 +6,10 @@ colorsArray = ["red","blue","pink","green","purple","yellow"];
 
 
     
-    document.getElementById("date").innerHTML = d.toLocaleDateString()
+    document.getElementById("date").innerHTML = d
 
     
-    if(5 <= t && 12 > t){
+    if(0 <= t && 12 > t){
     document.getElementById("telltime").innerHTML= "good"+ " "+moment[0] ;
    document.getElementById("image").src = "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/12-good-morning-design-template-0e63204000164c6678e2e5f41b12ecc6_screen.jpg?ts=1597682115";
     
